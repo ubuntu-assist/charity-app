@@ -62,13 +62,13 @@ const NavBar = () => {
       className='absolute top-full left-0 w-64 bg-white shadow-lg rounded-md py-2 mt-1'
     >
       {items.map((item: any) => (
-        <a
+        <Link
           key={item.name}
-          href={item.href}
+          to={item.href}
           className='block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-blue-700'
         >
           {item.name}
-        </a>
+        </Link>
       ))}
     </motion.div>
   )
