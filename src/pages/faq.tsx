@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import {
   Search,
@@ -6,9 +6,7 @@ import {
   Heart,
   Users,
   Target,
-  Gift,
   ArrowRight,
-  ExternalLink,
 } from 'lucide-react'
 import {
   Accordion,

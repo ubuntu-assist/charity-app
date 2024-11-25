@@ -1,77 +1,8 @@
-import React from 'react'
 import { motion } from 'framer-motion'
-import {
-  Handshake,
-  Building2,
-  ExternalLink,
-  ChevronRight,
-  Globe,
-} from 'lucide-react'
+import { Handshake, Building2, ChevronRight, Globe } from 'lucide-react'
 import MarqueeDemo from './marquee-demo'
 
 const PartnerSponsorsSection = () => {
-  const partners = [
-    {
-      name: 'Global Tech Solutions',
-      type: 'Technology Partner',
-      logo: 'https://www.afrilabs.com/wp-content/uploads/2022/08/Mountain-Hub-logo.png',
-      description:
-        'Providing innovative technology solutions to expand our global reach.',
-      yearJoined: 2022,
-      impactArea: 'Digital Infrastructure',
-      website: '#',
-    },
-    {
-      name: 'EcoGreen Foundation',
-      type: 'Environmental Partner',
-      logo: 'https://www.afrilabs.com/wp-content/uploads/2022/08/Mountain-Hub-logo.png',
-      description:
-        'Collaborating on sustainable development initiatives worldwide.',
-      yearJoined: 2021,
-      impactArea: 'Sustainability',
-      website: '#',
-    },
-    {
-      name: 'Education First Corp',
-      type: 'Corporate Sponsor',
-      logo: 'https://www.afrilabs.com/wp-content/uploads/2022/08/Mountain-Hub-logo.png',
-      description:
-        'Supporting educational programs and scholarship initiatives.',
-      yearJoined: 2023,
-      impactArea: 'Education',
-      website: '#',
-    },
-    {
-      name: 'Community Health Alliance',
-      type: 'Healthcare Partner',
-      logo: 'https://www.afrilabs.com/wp-content/uploads/2022/08/Mountain-Hub-logo.png',
-      description:
-        'Partnering to improve healthcare access in underserved communities.',
-      yearJoined: 2023,
-      impactArea: 'Healthcare',
-      website: '#',
-    },
-    {
-      name: 'Future Fund',
-      type: 'Financial Sponsor',
-      logo: 'https://www.afrilabs.com/wp-content/uploads/2022/08/Mountain-Hub-logo.png',
-      description:
-        'Providing financial support for youth development programs.',
-      yearJoined: 2024,
-      impactArea: 'Youth Development',
-      website: '#',
-    },
-    {
-      name: 'Global Impact Group',
-      type: 'Strategic Partner',
-      logo: 'https://www.afrilabs.com/wp-content/uploads/2022/08/Mountain-Hub-logo.png',
-      description: 'Collaborating on international humanitarian projects.',
-      yearJoined: 2022,
-      impactArea: 'Humanitarian Aid',
-      website: '#',
-    },
-  ]
-
   return (
     <div className='bg-gray-50 py-24'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>

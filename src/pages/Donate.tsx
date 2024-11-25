@@ -195,6 +195,7 @@ const DonationPage: React.FC = () => {
   const handleDonate = (e: React.FormEvent) => {
     e.preventDefault()
     setShowThankYou(true)
+    console.log(frequency)
     fireConfetti() // Trigger confetti animation
     setTimeout(() => setShowThankYou(false), 3000)
   }

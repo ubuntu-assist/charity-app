@@ -1,13 +1,5 @@
 import { motion } from 'framer-motion'
-import {
-  Calendar,
-  Clock,
-  ChevronRight,
-  Tag,
-  BookOpen,
-  Mail,
-  ArrowRight,
-} from 'lucide-react'
+import { Calendar, Clock, Tag } from 'lucide-react'
 
 const NewsBlogSection = () => {
   const articles = [
@@ -43,27 +35,6 @@ const NewsBlogSection = () => {
       image:
         'https://images.unsplash.com/photo-1510925758641-869d353cecc7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
       tags: ['Report', 'Impact'],
-    },
-  ]
-
-  const upcomingEvents = [
-    {
-      title: 'Community Leadership Workshop',
-      date: 'March 25, 2024',
-      location: 'Virtual Event',
-      type: 'Workshop',
-    },
-    {
-      title: 'Annual Fundraising Gala',
-      date: 'April 10, 2024',
-      location: 'New York City',
-      type: 'Event',
-    },
-    {
-      title: 'Volunteer Training Session',
-      date: 'April 15, 2024',
-      location: 'Multiple Locations',
-      type: 'Training',
     },
   ]
 

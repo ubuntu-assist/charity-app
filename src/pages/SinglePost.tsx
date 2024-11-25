@@ -10,7 +10,6 @@ import {
   Linkedin,
   HandHeart,
   Users,
-  Target,
   ArrowRight,
   ChevronUp,
   ArrowLeftCircle,

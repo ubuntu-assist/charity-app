@@ -8,7 +8,6 @@ import {
   Clock,
   Users,
   Globe,
-  ChevronDown,
   Cookie,
   Scale,
   Bell,

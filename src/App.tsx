@@ -8,13 +8,10 @@ import CommunityContactPage from './pages/Contact'
 import FAQPage from './pages/faq'
 import ErrorPage from './pages/ErrorPage'
 import PostDetails from './pages/SinglePost'
-import { useLocalization } from './helpers/use-localisation'
 import './i18n'
 import ScrollToTop from './components/core/scroll-to-top'
 
 function App() {
-  const { i18n } = useLocalization()
-
   return (
     <BrowserRouter>
       <ScrollToTop />

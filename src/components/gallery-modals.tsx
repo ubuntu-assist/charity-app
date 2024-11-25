@@ -200,7 +200,6 @@ const items: ItemType[] = [
 
 function ImageItem({
   item,
-  index,
   setSelected,
 }: Readonly<ImageItemProps>): JSX.Element {
   const ref = useRef<HTMLElement>(null)

@@ -1,10 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { motion } from 'framer-motion'
-import { Search, Calendar, ArrowRight, Clock, ChevronRight } from 'lucide-react'
+import { Calendar, ArrowRight, Clock, ChevronRight } from 'lucide-react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination } from 'swiper/modules'
 import { Button } from '@/components/ui/button'
-import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
 import 'swiper/swiper-bundle.css'
 import { IconBrandBlogger } from '@tabler/icons-react'
@@ -309,6 +308,7 @@ const BlogPage: React.FC = () => {
     // Convert category title to URL-friendly format
     const categorySlug = category.toLowerCase().replace(/\s+/g, '-')
     // router.push(`/blog/category/${categorySlug}`)
+    console.log(categorySlug)
   }
 
   return (
